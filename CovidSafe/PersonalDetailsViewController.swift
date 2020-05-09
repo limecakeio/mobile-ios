@@ -16,6 +16,7 @@ enum AusState: String {
     case WA = "Western Australia"
     case NT = "Northern Territory"
     case ACT = "Australian Capital Territory"
+    case TAS = "Tasmania"
 }
 
 class PersonalDetailsViewController: UIViewController, UITextFieldDelegate, UIPickerViewDelegate, UIPickerViewDataSource {
